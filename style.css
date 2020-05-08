@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.slider{
+    height:500px;
+    width:85000px;
+    overflow: hidden;
+    margin-left: 7%;
+
+}
+.inner{
+    position: relative;
+    width: 8500px;
+    animation-name: Shah;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 1, 1, 1);
+}
+.inner img{
+    float: left;
+}
+@keyframes Shah{
+    0%{
+           left: 0px;
+    }
+    8%{
+        left: 0px;
+    }
+    100%{
+      left: -7000px;
+    }
+}
+
+nav ul {
+    width: 50%;
+    height: 130px;
+    background-color: white;
+    text-align: right;
+    float: right;
+    margin-right: 150px;
+    margin-top: 3%;
+    
+}
+
+nav ul li {
+    color: black;
+    margin: 10px;
+    text-align: right;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 8%;
+    left: 14%;
+}
+.middle{
+    background-color: rgb(66, 66, 230);
+    height: 60px;
+}
+.wahan{
+    width: 30%;
+    height: 50px; 
+    display: inline-block;
+    padding: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.million{
+    padding-left: 5px;
+    margin-left: 5px;
+    
+}
+.button{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.upper{
+    width: 30%;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+     left: 30%;
+    color: white;
+    font-size: 20px;
+}
+#image{
+    color: white;
+    width: 30px;
+    height: 20px;
+    margin-top: 12px;
+    padding-left: 10px;
+    margin-left: 130px;
+}
+
+.para{
+    color: black;
+}
+.marque{
+    height:50px;
+    background: rgb(81, 81, 214);;
+    color: white;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:30px;
+    text-align:center;
+    width: 100%;
+    margin-top: -4%;
+    padding-top: 10px;
+}
+.intro{
+    margin: 0% 20% 0% 20%;
+    border: 1px solid white;
+    margin-top: 5%;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h1{
+    text-align: center;
+    color: green;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dastar{
+    background-color: rgb(84, 84, 197);
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 5%;
+} 
+.dastar1{
+    float: left;
+    margin-left: 11%;
+    margin-top: 6%;
+}   
+#plate{
+    margin-left: 20%;
+    width: 70px;
+    height: 70px;
+}
+#num1{
+    margin-left: 12%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+#first{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+#family{
+    margin-left: 20%;
+    width: 70px;
+    height: 70px;
+}
+#num2{
+    margin-left: 15%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:32px;
+}
+#second{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+#doctor{
+    margin-left: 11%;
+    width: 70px;
+    height: 70px;
+}
+#num3{
+    margin-left: 4%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+#third{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+#student{
+    margin-left: 17%;
+    width: 70px;
+    height: 70px;
+}
+#num4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    margin-left: 7%;
+}
+#four{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+#intro{
+    margin-left: 41%;
+    width: 450px;
+    height: 150px;
+    margin-top: 10%;
+}
+.functions{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 250px;
+    text-shadow: 3px 3px 2px rgb(116, 113, 113);
+}
+.functions1{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 230px;
+    float: left;
+    margin-left: 11%;
+    margin-top: 2%;
+    border: 5px solid darkgray;
+}
+.function{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    text-shadow: 3px 3px 2px rgb(116, 113, 113);
+}
+.functions2{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 230px;
+    float: left;
+    margin-left: 11%;
+    margin-top: 2%;
+    border: 5px solid darkgray;
+}
+.mission{
+    margin-top: 10%;
+    margin-left: 11%;
+    width: 900px;
+    height: 350px;
+}
+.upcoming{
+        width: 500px;
+        height: 600px;
+        position: absolute;
+        top: 251%;
+        right: 10%;
+}
+.event{
+    color: rgb(54, 54, 204);
+    text-shadow: 3px 2px 2px rgb(116, 113, 113);
+}
+.iframe{
+    font-size: 23px;
+    margin-top: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(118, 190, 190);
+}
+
+.project{
+    color: blue;
+    font-size: 50px;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+    text-shadow: 3px 2px 2px rgb(165, 155, 155);
+}
+    
+}
+.coming{
+    color: blue;
+    font-size: 40px;
+    text-shadow: 3px 2px 2px rgb(165, 155, 155);
+    float: right;
+    margin-right: 25%;
+    margin-bottom: 30%;
+}
+.gallery{
+    margin-left: 40%;
+    width: 500px;
+    height: 150px;
+    margin-top: 10%;
+}
+.sadqah{
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.medical{
+    color: rgb(103, 103, 253);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+}
+.dastarkhn{
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.roplant{
+    color: rgb(104, 104, 224);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+}
+.hepa{
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 8%;
+    display: inline-block;
+    border: 2px solid lightgray;
+}
+.it{
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: inline-block;
+    border: 2px solid lightgray;
+}
+#photo{
+    margin-left: 3%;
+    margin-top: 7%;
+    width: 40px;
+    height: 40px;
+}
+.picture{
+    display: inline-block;
+    margin-left: 9%;
+    
+}
+.evi{
+    width: 380px;
+    height: 250px;
+    float: left;
+    border: 3px solid rgb(148, 143, 143);
+    margin-top: 3%;
+}
+.footer{
+    height: 610px;
+    width: 100%;
+    background-color: black;
+}
+
+.about{
+    color: whitesmoke;
+    padding-top: 60px;
+    margin-left: 9%;
+    font-size: 30px;
+
+}
+
+.paragraph{
+    color: whitesmoke;
+    margin-left: 9%;
+    font-size: 22px;
+
+}
+
+
+.eye{
+    width: 900px;
+    margin-left: 9%;
+    float: left;
+}
+
+.eye img{
+    width: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+}
+span{
+    color: white;
+    font-size: 23px;
+    margin-left: 3%;
+}
+.location{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+}
+.about{
+    color:green;
+    font-size: 40px;
+}
+#connect{
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.contact{
+    color: green;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.saylani{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(72, 72, 221);
+}
+.copy{
+    color: white;
+    font-size: 20px;
+    margin-left: 22%;
+    padding-top: 10px;
+}
+.parkar{
+    font-size: 27px;
+    color: rgb(54, 54, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+    
+
